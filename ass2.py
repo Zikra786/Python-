@@ -1,13 +1,9 @@
-class bank:
- def interest(self):
-  print("bank interest is 0")
-class sbi(bank):
- def interest(self):
-  print("value of interest is as per norm of bank")
-class pnb(bank):
- def interest(self):
-  print("value of interest is as per norm of bank")
-c=bank()
-c.sbi()
-c.pnb()
+l=float(input("enter length : "))
+b=float(input("enter breadth : "))
+h=float(input("enter height : "))
 
+v=l*b*h
+sa=2*(l*b+b*h+h*l)
+
+print("Volume of cuboid is : ",v)
+print("Surface Area of cuboid is : ",sa)
